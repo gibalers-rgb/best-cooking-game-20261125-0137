@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Copper Ladle — Sizzle &amp; Serve</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #241408; height: 100%; }
+  body { display: block; font-family: 'Trebuchet MS', 'Segoe UI', sans-serif; }
+  #wrap { text-align: center; }
+  canvas { display: block; width: 1280px; height: 720px; margin: 0 auto; background: #b98a5e; box-shadow: 0 0 40px rgba(0,0,0,0.6); cursor: pointer; }
+  #help { color: #cbb896; font-size: 13px; margin-top: 10px; }
+  #help b { color: #ffe9c4; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="help"><b>WASD / arrows</b> move &nbsp;·&nbsp; <b>E</b> interact &nbsp;·&nbsp; <b>Q</b> drop &nbsp;·&nbsp; <b>R</b> restart &nbsp;·&nbsp; <b>M</b> mute &nbsp;·&nbsp; click a station to walk to it</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
